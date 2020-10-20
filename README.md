@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/biarocha3360/Lab_Bia_Exam_2/_apis/build/status/biarocha.ContosoAir?branchName=master)](https://dev.azure.com/biarocha3360/Lab_Bia_Exam_2/_build/latest?definitionId=41&branchName=master)
+
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
 
