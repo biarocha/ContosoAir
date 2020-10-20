@@ -23,7 +23,7 @@ steps:
 
 - task: PublishTestResults@2
   displayName: 'Publish Test Results'
-  condition: succededOrFailed()
+  condition: succeededOrFailed()
   inputs:
     testResultsFiles: $(System.DefaultWorkingDirectory)/test-report.xml
 
