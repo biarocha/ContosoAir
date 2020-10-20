@@ -29,7 +29,7 @@ steps:
 
 - task: PublishCodeCoverageResults@1
   displayName: 'Publish Code Coverage'
-  condition: 'in(variables["Agent.JobStatus"], "Succeded")'
+  condition: 'in(variables[''Agent.JobStatus''], ''Succeded'')'
   inputs:
     codeCoverageTool: Cobertura
     summaryFileLocation: '$(System.DefaultWorkingDirectory)/coverage/*coverage.xml'
